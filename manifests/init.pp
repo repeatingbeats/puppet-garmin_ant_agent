@@ -6,7 +6,8 @@
 
 class garmin_ant_agent {
   package { 'Garmin Ant Agent':
-    provider => 'appdmg',
-    source => 'http://www8.garmin.com/software/ANTAgentforMac_221.dmg'
+    provider => 'pkgdmg',
+    source => 'http://www8.garmin.com/software/ANTAgentforMac_221.dmg',
+    ensure => 'installed'
   }
 }
