@@ -1,21 +1,17 @@
-# Template Puppet Module for Boxen
+# Garmin Ant Agent Puppet Module for Boxen
 
-An example of how we write Puppet modules for Boxen. Replace this
-paragraph with a short explanation of what the heck makes your module
-useful.
+Installs the Garmin Ant Agent. I'm using Boxen to provision my personal army of
+Macs, and I want this installed on them.
 
 ## Usage
 
 ```puppet
-boxen::example { 'best example ever':
-  salutation => 'fam'
-}
+include garmin_ant_agent
 ```
 
 ## Required Puppet Modules
 
-* `boxen`
-* `anything-else`
+None.
 
 ## Development
 
